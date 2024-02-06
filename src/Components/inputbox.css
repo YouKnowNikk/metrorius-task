@@ -1,0 +1,32 @@
+.input-box-container{
+  min-width: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 4%;
+  margin: 5% 0;
+}
+.input-container{
+  display: inline-block;
+
+}
+
+.input-container label{
+  display: block;
+  margin: 8px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 90%; 
+  }
+
+  .input-box-container {
+    flex-direction: row;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}
